@@ -4,14 +4,55 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="shortcut icon" href="/Images/online-shope.png" type="Images">
+    <link rel="stylesheet" href="style.css">
+    <!-- style tag -->
+    <style>
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        color: rebeccapurple;
+      }
+      header {
+        background-color: red;
+        a {
+          color: white;
+          padding: 1rem;
+          text-align: right;
+        }
+        a {
+          color: inherit;
+        }
+      }
+
+      img {
+        /* property-name: value; */
+        width: 200px;
+      }
+      p {
+        background-color: dodgerblue;
+        color: white;
+        padding: 1rem;
+        font-size: 14px;
+      }
+    </style>
+    <!-- style tag -->
   </head>
   <body>
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="contact.html">Contact</a>
-    <a href="sport.html">Sport</a>
-    <a href="news.html">News</a>
-    <a href="pricing.html">Pricing</a>
+    <header>
+      <h2>Logo</h2>
+      <div>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="sport.html">Sport</a>
+        <a href="news.html">News</a>
+        <a href="pricing.html">Pricing</a>
+      </div>
+    </header>
     <!-- heading tag -->
     <h1>I am super excited</h1>
     <h2>I am super exicted</h2>
@@ -52,7 +93,7 @@
     <!-- html lists -->
     <h2>Unordered List</h2>
 
-    <ul>
+    <ul style="background-color: red; padding: 1rem; list-style: none; color: blue;"> 
       <li>Pencil</li>
       <li>Biro</li>
       <li>Eraser</li>
@@ -61,7 +102,7 @@
     </ul>
 
     <h2>Ordered List</h2>
-    <ol>
+    <ol style="background-color: purple; padding: 1rem; list-style: none; color: white;">
       <li>Lagos</li>
       <li>Paris</li>
       <li>Abeokuta</li>
@@ -236,7 +277,7 @@
 
     <!-- Semantics html -->
     <section></section>
-    <header></header>
+    <header><p>@all rights reversed |Okesanjo Fathia</p></header>
     <nav></nav>
     <article></article>
     <aside></aside>
