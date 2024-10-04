@@ -18,4 +18,4 @@
 [Fathia-app] (Fathia@app.com)
 
 ### App Image
-![./images/fathia.png](./images/fathia.png)# cohort-4.2-html-css-weekdays
+![./images/fathia.png](./images/fathia.png)
