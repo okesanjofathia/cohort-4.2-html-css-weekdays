@@ -4,9 +4,9 @@
 
 
 input {
-    /* top, right, bottom and left*/
-    padding: 10px 15px;
-    border: 1.5px solid rebeccapurple;
+    /* top, right, bottom and left */
+    padding : 10px 15px;
+    border : 1.5px solid rebeccapurple;
 }
 
 form div {

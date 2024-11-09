@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Block Level elements */
+.first-div{
+    background-color: dodgerblue;
+    color: white;
+    padding: 15px;
+}
+.first-para{
+    background-color: slateblue;
+    color: white;
+    padding: 15px;
+}
+.first-section{
+    background-color: chocolate;
+    color: white;
+    padding: 15px;
+}
+/* converting elements */
+.btn{
+    display: block;
+}
+/* hiding elements */
+.hide-me{
+    background-color: darkgoldenrod;
+    color: white;
+    padding: 15px;
+    display: none;
+}
+.make-me-invisible{
+    background-color: rebeccapurple;
+    color: white;
+    padding: 15px;
+    visibility: hidden;
+}

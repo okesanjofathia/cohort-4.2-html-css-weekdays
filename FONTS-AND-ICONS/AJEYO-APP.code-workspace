@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../AJEYO-APP"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "AJEYO-APP"
+	}
+}

@@ -1,0 +1,20 @@
+/* css reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.para-container{
+    text-align: center;
+    padding: 15px;
+}
+.my-para{
+    color: red;
+}
+#my-para{
+    color: orange;
+}
+p{
+    color: blue !important;
+}
