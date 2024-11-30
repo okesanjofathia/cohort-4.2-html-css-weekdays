@@ -1,0 +1,137 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: white;
+  color: #111;
+  padding: 20px 80px;
+}
+
+.circle{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: orangered;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bounce{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: orangered;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@keyframes circle {
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+}
+.circle{
+  animation: circle 2s ease-in-out 1s infinite alternate;
+}
+
+@keyframes bounce {
+  0%, 100%{
+    transform: translateY(0);
+  }
+  50%{
+    transform: translateY(-20px);
+  }
+}
+.bounce{
+  animation: bounce 1s infinite ;
+}
+.icons{
+  display: flex;
+  gap: 2rem;
+}
+ .fa-brands{
+  cursor: pointer;
+  font-size: 25px;
+ }
+ .fa-brands:hover{
+ animation: icons 1s infinite;
+ }
+ @keyframes icons {
+  0%, 100%{
+    transform: translateY(0);
+  }
+  50%{
+    transform: translateY(-20px);
+  }
+ }
+  /* CSS TRANSITION EXAMPLE */
+  .btn{
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    transition: back-ground-color 0.3s ease;
+    transition: back-ground-color 0.3s ease-in-out 0.2s;
+  }
+  .btn:hover{
+    background-color: #2980b9;
+  }
+  /* transition on card */
+  .card{
+    margin: 1rem 0;
+    width: 40%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+  }
+  .card img{
+    width: 100%;
+  }
+  .card-content{
+    padding: 20px;
+  }
+  .card:hover{
+    transform: scale(1.01, 1.02);
+  }
+  .btn-login{
+    border: none;
+    padding: 12px 14px;
+    border-radius: 5px;
+    background-color: purple;
+    color: #111;
+    cursor: pointer;
+  }
+  .btn-login:hover{
+    transform: scale(1.1);
+  }
+/* classwork */
+.fathia{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: fuchsia;
+  color: #111;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@keyframes fathia {
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+}
+.fathia{
+  animation: fathia 3s ease-out 1s infinite alternate;
+}
