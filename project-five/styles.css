@@ -1,0 +1,293 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #ffffff;
+  color: #000000;
+  font-family: "EB Garamond", "Nunito Sans";
+}
+h2 {
+  font-family: "EB Garamond";
+  font-size: 45px;
+  font-weight: 500;
+  line-height: 58.72px;
+}
+h3 {
+  font-family: Nunito Sans;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 19.1px;
+}
+p,
+span {
+  font-family: "Nunito Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.82px;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.container {
+  max-width: 1440px;
+  padding: 1.2rem 4rem;
+  margin: 0 auto;
+}
+/* top-bar style start */
+.top-bar-container {
+  background: #5500d480;
+  border-bottom: 2px solid #ffffff;
+}
+.top-bar-content {
+  display: flex;
+  justify-content: space-between;
+}
+.top-bar-left-content {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+.top-bar-left-content img {
+  width: 18px;
+  height: 18px;
+}
+.top-bar-left-content span {
+  font-family: Nunito Sans;
+  font-size: 15px;
+  font-weight: 400;
+  color: #ffffff;
+}
+.tel,
+.mail {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+.top-bar-right-content {
+  color: #ffffff;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+/* top-bar style end */
+/* hero section styles start */
+.hero-container {
+  position: relative;
+  display: flex;
+  gap: 9rem;
+  flex-direction: column;
+  font-family: "Nunito Sans";
+  background: linear-gradient(rgba(85, 0, 212, 0.55), rgba(85, 0, 212, 0.3)),
+    url("./images/house-background.png") no-repeat center center/cover;
+  height: calc(100vh - 3.8rem);
+}
+.hero-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero-nav img {
+  width: 160px;
+}
+.hero-nav-lists {
+  display: flex;
+  gap: 1.5rem;
+}
+.hero-nav-list {
+  color: #ffffff;
+}
+.hero-nav button {
+  font-size: 16px;
+  font-weight: 700;
+  border: none;
+  padding: 10px 12px;
+  background-color: #5500d4;
+  color: #ffffff;
+  border-radius: 10px;
+}
+.hero-text {
+  font-family: "EB Garamond";
+  font-family: "Nunito Sans";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #ffffff;
+}
+.hero-text h2 {
+  font-size: 50px;
+  font-weight: 600;
+  text-align: center;
+}
+.hero-text p {
+  text-align: center;
+  width: 85%;
+  line-height: 27.28px;
+  font-family: "Nunito Sans";
+  font-size: 20px;
+  font-weight: 400;
+}
+
+/* hero section styles end */
+/* welcome section styles start */
+.welcome-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.2rem;
+  font-family: EB Garamond;
+}
+.left-welcome-content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.left-welcome-content h2 {
+  font-size: 45px;
+  font-weight: 500;
+  line-height: 58.72px;
+  color: #222222;
+}
+.right-welcome-content img {
+  width: 35%;
+  position: absolute;
+  bottom: -300px;
+}
+/* welcome section styles end */
+/* investment section style start */
+.investment-container {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  margin-top: 8rem;
+  padding: 4rem 4rem;
+  background: linear-gradient(rgba(85, 0, 212, 0.55), rgba(85, 0, 212, 0.3)),
+    url("./images/room.png") no-repeat center center/cover;
+  height: auto;
+}
+.top-investment-container {
+  color: #ffffff;
+}
+.cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.4rem;
+}
+.card {
+  background-color: #5500d4;
+  color: #ffffff;
+  text-align: center;
+  padding: 16px;
+}
+.card img {
+  width: 50px;
+  height: 50px;
+}
+.card-title {
+}
+/* investment section style end*/
+
+/* properties section styles start */
+/* cards styles */
+.properties-container {
+  cursor: pointer;
+}
+.properties-title {
+  font-family: EB Garamond;
+  margin-top: 2rem;
+  margin-left: 3rem;
+  font-size: 45px;
+  font-weight: 500;
+  line-height: 58.72px;
+  text-align: left;
+}
+.properties {
+  padding: 3rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.5rem;
+}
+.property {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+}
+.property-content {
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+.property-title {
+  font-family: "EB Garamond", serif;
+  font-size: 24px;
+  font-weight: 500;
+}
+.property-desc {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 29px;
+}
+.property-btn {
+  padding: 12px 15px;
+  border-radius: 10px;
+  background-color: #7549ff;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+  max-width: fit-content;
+  align-self: flex-end;
+}
+/* properties section styles end */ 
+/* footer styles start */
+.footer-container{
+  margin-top: 5rem;
+}
+.footer-top{
+  padding: 2rem 0;
+  border-top: 1px solid rgba(85, 0, 212, 1);
+  border-bottom: 1px solid rgba(85, 0, 212, 1);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  place-items: center;
+}
+.footer-logo{
+  width: 200px;
+}
+.footer-contact{
+  display: flex;
+  flex-direction: column;
+  gap: .9rem;
+}
+.contact-content{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.contact-content p{
+  font-size: 13px;
+}
+.newsletter{
+  display: flex;
+  flex-direction: column;
+  gap: .8rem;
+}
+.footer-icons{
+  display: flex;
+gap: 1.1rem;
+cursor: pointer;
+}
+.footer-bottom{
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  gap: .4rem;
+}
+/* footer styles end */

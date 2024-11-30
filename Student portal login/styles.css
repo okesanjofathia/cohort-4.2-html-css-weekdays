@@ -1,0 +1,140 @@
+/* colors */
+/* 
+#ffffff
+#333437
+#925FE2
+#9C6FE4
+ */
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: "Poppins", sans-serif;
+    background-color: #111111;
+    color: #ffffff;
+  }
+  img {
+    width: 100%;
+    height: auto;
+  }
+  li {
+    list-style: none;
+  }
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  /* portal styles start*/
+  .portal-container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .left-portal-container {
+    padding: 30px;
+    flex: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.1rem;
+  }
+  .portal-details {
+    align-self: flex-start;
+  }
+  .login-title {
+    font-size: 48px;
+    margin-bottom: 0.4rem;
+  }
+  form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+  .input-container {
+    position: relative;
+    margin-bottom: 0.6rem;
+  }
+  .input-container input {
+    background-color: #111111;
+    width: 90%;
+    border: none;
+    border-bottom: 1px solid #ffffff66;
+    outline: 0;
+    color: #ffffff;
+  }
+  .fa-regular {
+    position: absolute;
+    top: -10px;
+    right: 50px;
+    cursor: pointer;
+  }
+  .portal-btn {
+    width: 90%;
+    font-size: 16px;
+    font-weight: 400;
+    background: #9c6fe4;
+    color: #ffffff;
+    border: none;
+    padding: 12px 15px;
+    border-radius: 12px;
+    cursor: pointer;
+  }
+  .account {
+    margin-top: 6rem;
+    display: flex;
+    align-items: center;
+    align-self: flex-start;
+    gap: 4rem;
+    opacity: 0.5;
+    font-weight: 400;
+  }
+  .account-btn {
+    padding: 12px 24px;
+    border-radius: 8px;
+    background-color: #333437;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+  }
+  .right-portal-container {
+    height: 100vh;
+    flex: 4;
+    background-color: #925fe2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  /* .right-top-content {
+  } */
+  .right-portal-details {
+    color: #eeeeee;
+    line-height: 1;
+  }
+  .right-title {
+    font-size: 45px;
+    font-weight: 700;
+  }
+  .student-info {
+    display: block;
+    font-weight: 400;
+  }
+  .right-desc {
+    margin-top: 0.4rem;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  /* .right-bottom-content {
+  } */
+  /* portal styles end*/
+  /* media queries */
+  @media (max-width: 768px) {
+    .portal-container {
+      flex-direction: column-reverse;
+    }
+  }
